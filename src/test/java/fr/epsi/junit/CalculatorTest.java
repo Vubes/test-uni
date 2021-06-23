@@ -66,5 +66,8 @@ public class CalculatorTest {
         if (somme == 15) {
             System.out.println("Tableau OK");
         }
+        else{
+            System.out.println("Tableau NON OK");
+        }
     }
 }
