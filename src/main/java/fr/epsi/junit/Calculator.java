@@ -18,8 +18,13 @@ public class Calculator {
     }
 
     public int add(int[] nmbers){
-        return 0;
+
+        int[] tab = {1, 2, 3, 4, 5};
+        int somme = 0;
+        for( int i : tab) {
+            somme = somme + i;
+        }
+        return somme;
+        //System.out.println("La somme des éléments du tableau est : "+ somme);
     }
 }
-
-
