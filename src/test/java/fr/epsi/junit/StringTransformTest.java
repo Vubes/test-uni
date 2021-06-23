@@ -33,7 +33,14 @@ public class StringTransformTest {
 
         Assertions.assertEquals("Chaine", ret);
     }
+    @Test
+    public void add_table(){
+        
 
+
+
+
+    }
 
     @AfterEach
     public void cleanEach(){
